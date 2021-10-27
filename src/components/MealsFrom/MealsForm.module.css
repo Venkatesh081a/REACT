@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.forminput {
+  display: flex;
+  gap: 15px;
+}
+
+.forminput input {
+  font-size: 15px;
+  width: 40px;
+  height: 25px;
+  border: 1px solid rgb(161, 158, 158);
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+
+.forminput label {
+  font-weight: bold;
+}
+
+.btnadd {
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 7px 35px;
+  background-color: #a61e4d;
+  color: #fff;
+  border: 1px solid #a61e4d;
+  font-weight: bold;
+  cursor: pointer;
+}

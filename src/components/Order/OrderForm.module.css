@@ -1,0 +1,141 @@
+.orderForm {
+  position: fixed;
+  width: 600px;
+  height: 32rem;
+  margin: 80px 350px;
+  background-color: #fed265;
+  padding: 40px 10px;
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  color: #000000;
+}
+
+.order {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  font-size: 28px;
+}
+.form-container input {
+  width: 290px;
+  height: 25px;
+  border: none;
+}
+
+.form-container textarea {
+  width: 290px;
+  height: 80px;
+}
+
+.form-container label {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  padding: 10px 30px;
+  color: #000000;
+}
+
+.firstname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
+}
+
+.lastname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
+}
+
+.error-text {
+  color: red;
+  margin-left: 220px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.invalid input {
+  background-color: rgb(235, 183, 183);
+  border: 1px solid rgb(179, 3, 3);
+}
+
+.invalid input:focus {
+  background-color: rgb(223, 189, 189);
+}
+
+.invalid textarea {
+  background-color: rgb(235, 183, 183);
+  border: 1px solid rgb(179, 3, 3);
+}
+
+.invalid textarea:focus {
+  background-color: rgb(223, 189, 189);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn-submit {
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 7px 2rem;
+  background-color: rgb(96, 6, 138);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+  border: none;
+}
+
+.btn-cancel {
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 7px 1rem;
+  background-color: #d6336c;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+  border: none;
+}
+
+.btn-submit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-container input::placeholder {
+  color: rgb(65, 64, 64);
+  text-align: start;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(26, 25, 25, 0.75);
+}

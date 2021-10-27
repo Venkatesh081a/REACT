@@ -1,0 +1,68 @@
+.cartModal {
+  position: fixed;
+  width: 600px;
+  height: 20rem;
+  margin: 80px 350px;
+  overflow: scroll;
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.amountContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.btnClose {
+  font-size: 20px;
+  padding: 3.5px 20px;
+  border-radius: 18px;
+  border: 1px solid #f59f00;
+  color: #f08c00;
+  background-color: transparent;
+}
+
+.btnOrder {
+  font-size: 18px;
+  padding: 3.5px 20px;
+  border-radius: 18px;
+  border: 1px solid #f59f00;
+  color: #f08c00;
+  background-color: transparent;
+}
+
+.btnClose:hover,
+.btnOrder:hover,
+.btnClose:active,
+.btnOrder:active {
+  background-color: #a61e4d;
+  color: #fff;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(26, 25, 25, 0.75);
+}

@@ -1,0 +1,65 @@
+.order-message-container {
+  position: fixed;
+  width: 600px;
+  height: 28rem;
+  margin: 80px 350px;
+  padding: 40px 10px;
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.orderplacedicon {
+  height: 62px;
+  width: 62px;
+  background-color: #2f9e44;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+.order-icon {
+  height: 58px;
+  width: 58px;
+  color: #fff;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 3rem;
+}
+
+.order-info h2 {
+  font-size: 26px;
+}
+
+.order-info p {
+  letter-spacing: 0.5px;
+}
+
+.btn-continue {
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  background-color: #3b5bdb;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #3b5bdb;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.btn-continue:hover,
+.btn-continue:active {
+  background-color: rgb(96, 6, 138);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(26, 25, 25, 0.75);
+}

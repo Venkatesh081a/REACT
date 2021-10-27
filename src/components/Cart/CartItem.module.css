@@ -1,0 +1,52 @@
+.cartItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #f08c00;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+.name {
+  text-align: start;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #ff922b;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.priceContainer {
+  display: flex;
+  gap: 50px;
+}
+.priceContainer input {
+  width: 30px;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;
+}
+.btnRemove {
+  font: inherit;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+  border: 1px solid #f59f00;
+  color: #e67700;
+}
+
+.btnAdd {
+  font: inherit;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+  border: 1px solid #f59f00;
+  color: #e67700;
+}

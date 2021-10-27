@@ -1,0 +1,9 @@
+.mealslist-container {
+  width: 840px;
+  margin: -150px auto;
+  margin-bottom: 50px;
+}
+
+.mealslist-container h2 {
+  color: red;
+}

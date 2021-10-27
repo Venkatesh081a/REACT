@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.meal-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  padding: 10px 10px;
+}
+
+.description {
+  font-style: italic;
+  text-align: start;
+}
+
+.meal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 20px;
+}
+
+.meal-details h3 {
+  text-align: start;
+}
+
+.price {
+  font-size: 20px;
+  color: #fa5252;
+  font-style: normal;
+  text-align: start;
+  font-weight: bold;
+}
